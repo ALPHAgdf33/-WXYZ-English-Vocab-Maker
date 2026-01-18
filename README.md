@@ -1,10 +1,15 @@
 # -WXYZ-English-Vocab-Maker
 A PPT maker, using Python and Google TTS.
 
+Python required.  
+Link:  https://www.python.org/downloads/
+
 Copy the following content to the terminal to download the frontend library.
 ```
 pip install python-pptx python-docx requests beautifulsoup4 gTTS
 ```
+The font Consolas must be installed in advance on your Macbook. However Windows does not require this because it is a system font.  
+Link here:  https://www.fontpalace.com/font-details/Consolas/
 
 You can just copy the source code below for the most simple usage.
 Try with the EnglishVocab docx file.
