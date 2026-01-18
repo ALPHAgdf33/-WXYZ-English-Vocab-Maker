@@ -1,5 +1,11 @@
 # -WXYZ-English-Vocab-Maker
-A PPT maker, using Python and Google TTS.   
+A PPT maker, using Python and Google TTS.
+
+Copy the following content to the terminal to download the frontend library.
+```
+pip install python-pptx python-docx requests beautifulsoup4 gTTS
+```
+
 You can just copy the source code below for the most simple usage.
 Try with the EnglishVocab docx file.
 ```py
