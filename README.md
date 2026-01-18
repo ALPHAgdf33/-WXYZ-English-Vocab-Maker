@@ -113,7 +113,7 @@ def create_final_ai_ppt(docx_path, output_ppt="Advanced_Vocab_AI.pptx"):
 
             # 插入音频图标到右上角
             slide.shapes.add_movie(
-                audio_stream, Inches(8.5), Inches(0.3), Inches(0.5), Inches(0.5),
+                audio_stream, Inches(8.8), Inches(6.5), Inches(0.8), Inches(0.8),
                 mime_type='audio/mp3'
             )
         except Exception as e:
